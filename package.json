@@ -1,0 +1,23 @@
+{
+  "name": "aws-sam-product-app-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest src/tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BaliSutej/aws-sam-product-app-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BaliSutej/aws-sam-product-app-test/issues"
+  },
+  "homepage": "https://github.com/BaliSutej/aws-sam-product-app-test#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "jest": "^28.1.0"
+  }
+}
