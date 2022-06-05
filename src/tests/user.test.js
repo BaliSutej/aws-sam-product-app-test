@@ -28,6 +28,14 @@ describe('User Service Test ', () => {
         }
     });
 
+    test('delete user test using user endpoint', async () => {
+        const response = await axios.post("https://ei8pbbl4y0.execute-api.us-east-1.amazonaws.com/test/user/delete", data.userLogin);
+
+        expect(response.status).toBe(200);
+        expect(typeof response.data).toBe("object");
+        expect(response.data.message).toBe("User Successfully deleted");
+    });
+
     afterAll(() => {
         console.log("Cleanup database");
     });
