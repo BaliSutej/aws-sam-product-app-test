@@ -1,0 +1,32 @@
+{
+    "product": {
+        "productId": "prod1234",
+        "productName": "nestle munch",
+        "price": "10",
+        "category": "food",
+        "inventory": "100"
+    },
+    "updatePrice":{
+        "price": "15"
+    },
+    "updatedProduct": {
+        "productId": "prod1234",
+        "productName": "nestle munch",
+        "price": "15",
+        "category": "food",
+        "inventory": "50"
+    },
+    "userRegister": {
+        "userId": "svb@gmail.com",
+        "name": "sutej",
+        "password": "svb@gmail.com"
+    },
+    "userLogin": {
+        "userId": "svb@gmail.com",
+        "password": "svb@gmail.com"
+    },
+    "invalidUserCredentials":{
+        "userId": "sv@gmail.com",
+        "password": "svb@gmail.com"
+    }
+}
