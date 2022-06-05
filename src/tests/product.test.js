@@ -35,7 +35,7 @@ describe('Product Service Test ', () => {
 
         expect(response.status).toBe(200);
         expect(typeof response.data).toBe("object");
-        expect(response.data).toBe(data.product);
+        expect(response.data).toEqual(data.product);
     });
 
     test('update product price endpoint test', async () => {
@@ -47,7 +47,7 @@ describe('Product Service Test ', () => {
 
         expect(response.status).toBe(200);
         expect(typeof response.data).toBe("object");
-        expect(response.data).toBe(data.updatedProduct);
+        expect(response.data).toEqual(data.updatedProduct);
     });
     
     test('delete product endpoint test', async () => {
