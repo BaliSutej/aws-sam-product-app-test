@@ -14,7 +14,7 @@
         "productName": "nestle munch",
         "price": "15",
         "category": "food",
-        "inventory": "50"
+        "inventory": "100"
     },
     "userRegister": {
         "userId": "svb@gmail.com",
